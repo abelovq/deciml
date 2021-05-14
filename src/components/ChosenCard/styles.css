@@ -1,0 +1,52 @@
+.chosen-card {
+  width: 720px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid #BFBFBF;
+  background-color: #fff;
+  overflow: hidden;
+  animation: cardfill 0.2s ease;
+}
+
+.chosen-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #136DD9;
+  height: 60px;
+}
+
+.chosen-card__content {
+  flex-grow: 1;
+  text-align: start;
+  padding: 0 30px;
+}
+
+.chosen-card__date {
+  display: inline-block;
+  padding: 2px 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.chosen-card__map {
+  width: 100%;
+}
+
+.chosen-card__footer {
+  padding: 0 30px;
+  border-top: 1px solid #ddd;
+}
+
+@keyframes cardfill {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

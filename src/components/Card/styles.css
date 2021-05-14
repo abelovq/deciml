@@ -1,0 +1,34 @@
+.card {
+  width: 450px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid #BFBFBF;
+  background-color: #fff;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #136DD9;
+  height: 60px;
+}
+
+.card__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-align: start;
+  padding: 0 15px;
+}
+
